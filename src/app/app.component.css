@@ -1,0 +1,36 @@
+.ngIf, .ngswitch, .ngFor, .ngClass, .ngStyle, .elvis, .ngcontent, .custom-directives {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.ngIf {
+    display: none;
+}
+
+.ngswitch {
+    display: none;
+}
+
+.ngFor {
+    display: none;
+}
+
+.ngClass {
+    display: none;
+}
+
+.ngStyle {
+    display: none;
+}
+
+.elvis {
+    display: none;
+}
+
+.ngcontent {
+    display: none;
+}
+
+.custom-directives {
+    display: block;
+}

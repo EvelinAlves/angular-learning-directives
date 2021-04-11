@@ -1,0 +1,17 @@
+<h3>Com class binding <small>(property binding)</small></h3>
+<i class="bi" 
+    [class.bi-door-closed-fill]="!abrir"
+    [class.bi-door-open-fill]="abrir"
+    (click)="onOpen()"
+></i>
+
+<br>
+
+<h3>Com [ngClass]</h3>
+<i class="bi" 
+    [ngClass]="{
+        'bi-door-closed': fechar,
+        'bi-door-open': !fechar
+    }"
+    (click)="onClose()"
+></i>

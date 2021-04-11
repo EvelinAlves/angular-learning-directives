@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+div, button {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+button {
+    margin-bottom: 10px;
+    background-color: #0099ff;
+    border: 1px solid #6bbbf0;
+    color: white;
+    padding: 10px;
+}
+
+span {
+    padding: 10px;
+}

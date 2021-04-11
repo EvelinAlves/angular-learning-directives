@@ -1,0 +1,19 @@
+<h3>*ngIf</h3>
+
+<div *ngIf="cursos.length > 0; else listaVazia">
+    Lista de cursos aqui.
+</div>
+<ng-template #listaVazia>
+    Não há cursos para serem listados.
+</ng-template>
+<br>
+<br>
+
+<button (click)="onClick()">Mostrar/Esconder</button>
+<span *ngIf="visivel">
+    ^.^ (com *ngIf)
+</span>
+
+<span [hidden]="!visivel">
+    ^.^ (com hidden)
+</span>
